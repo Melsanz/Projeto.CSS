@@ -1,0 +1,132 @@
+body > *{
+  text-align:left;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+
+}
+/*cabeçalho*/
+
+.cabecalho{
+  cursor: pointer;
+  background-color: #dfa784;
+  max-width: 1919px;
+  width: 100%;
+}
+.nav{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  text-decoration:none;
+}
+
+  .img{
+    height: 250px;
+    width: 150px;
+    display: inline-block;
+    border-radius: 20px;
+    padding-top: 20px;
+  }
+  .nome{
+    color: rgb(36, 36, 33) ;
+    display: inline-block;
+    align-items: center;
+    margin: 25px;
+    font-size: 25px;
+  }
+  
+/*conteudo*/
+
+body{
+  min-height: 100vh;
+  line-height: 15px;
+  padding: 30px;
+  margin-top: 15px;
+  margin-left: 15px;
+  display: grid;
+}
+.contenido {
+  background-color: #cdcfc4;
+  padding: 20px;
+  margin-bottom: 10px;
+  
+}
+.Formacion {
+  background-color: #eacead;
+  padding: 20px;
+  margin-bottom: 10px;
+  
+}
+.Proyectos{
+  background-color: #f58d71;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  
+}
+.Contato{
+  background-color: #87a29e;
+  display: block;
+  align-items: center;
+}
+.contatoicone{
+  width: 20px;
+  height: 20px;
+}
+.iconegit{
+  width: 25px;
+  height: 25px;
+}
+.iconeemail{
+width: 25px;
+height: 25px;
+}
+.iconeinst{
+  width: 25px;
+  height: 25px;
+}
+.iconeface{
+  width: 25px;
+  height: 25px;
+}
+.lista{
+  list-style:none;
+}
+
+/*Cards*/
+.cardp1{
+  height: 325px;
+  width: 225px;
+  background-color: #f8d1b1;
+  padding: 35px;
+  float: left;
+  margin: 35px;
+}
+.cardimg{
+text-align: left;
+max-height: 100%;
+max-width: 100%;
+
+}
+.cardp2{
+  height: 325px;
+  width: 225px;
+  background-color: #f8d1b1;
+  padding: 35px;
+  float: left;
+  margin: 35px;
+}
+.cardimg{
+  max-width:100%;
+  max-height: 100%;
+}
+.cardp3{
+  height: 325px;
+  width: 225px;
+  background-color: #f8d1b1;
+  padding: 35px;
+  float: left;
+  margin: 35px;
+}
+.cardimg{
+  max-width: 100%;
+  max-height: 100%;
+}
